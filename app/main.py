@@ -98,7 +98,6 @@ Base.metadata.create_all(bind=engine)
 
 
 
-
     db.add(proj)
     commit_or_rolllback(db,"Book Creation Failed")
     db.refresh(proj)
